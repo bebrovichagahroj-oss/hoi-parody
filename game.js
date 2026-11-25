@@ -1122,7 +1122,7 @@ function openHelp(welcome) {
     <p><b>Фокусы</b> (F) дают бонусы и шутки. <b>Дипломатия</b> (D) — войны и пакты.
     <b>ПКМ</b> по своей соседней провинции перебрасывает войска. Колесо мыши — зум, перетаскивание — карта.</p>
     <p class="hint">Пробел — пауза, 1/2/3 — скорость. Игра сохраняется только в вашей памяти.</p>
-    <button class="btn primary" data-close>${welcome ? 'В бой!' : 'Понятно'}</button>
+    <button class="btn primary start-btn" data-close>${welcome ? 'В бой!' : 'Понятно'}</button>
   </div>`);
   $('modal').querySelector('[data-close]').onclick = () => {
     closeModal();
